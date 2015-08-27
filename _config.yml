@@ -1,0 +1,24 @@
+# Site settings
+title: Solid State Physics
+email: meijer@live.unc.edu
+description: > # this means to ignore newlines until "baseurl:"
+  A brief note-taking adventure in solid sate
+baseurl: "/solid-state" # the subpath of your site, e.g. /blog/
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+github_username:  sjmeijer
+
+# Build settings
+name: Solid State
+markdown: kramdown
+pygments: true
+
+
+#analytics helper
+
+analytics : 
+	provider : google
+	google :
+		tracking_id : 'UA-62053954-3'
+	getclicky :
+	site_id :
+
