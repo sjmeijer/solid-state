@@ -12,13 +12,16 @@ name: Solid State
 markdown: kramdown
 pygments: true
 
+pages_list:
+   About: '/about'
+   Archive: '/archive'
+   Feed: '/atom.xml'
 
 #analytics helper
-
 analytics : 
-	provider : google
-	google :
-		tracking_id : 'UA-62053954-3'
-	getclicky :
-	site_id :
+   provider : google
+   google :
+      tracking_id : 'UA-62053954-3'
+   getclicky :
+   site_id :
 
