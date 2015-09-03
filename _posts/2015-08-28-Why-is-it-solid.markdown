@@ -141,14 +141,68 @@ The equilibrium separation distance $$r_0$$ is the distance at which the energy 
 
 ## Ionic Crystals (pg 402)
 
+For cohesion in ionic crystals we make mostly the same basic assumptions as for cohesion in molecular crystals
+
+* The cohesive energy is entirely given by the potential energy of classical particles localized at the equilibrium positions.
+
+For ionic crystlas, we will define cohesive energy as the energy needed to disassemble the crystal into *isolated ions*, not atoms. 
+
+Since the particles in the ionic crystals are electrically charged, the most significant term in the potential energy is that from coulombic interactions (inverse first power of interionic distance $$1/r$$). Recall that the fluctuating dipole interaction goes as $$1/r^6$$, so we can even neglect to include it for rough estimates.
+
+To get the total equilibrium lattice parameters, we inlcude the core-core repulsion (Pauli principle) and the Coulombic attraction
+
+\begin{equation}
+	u(r) = u^{core}(r) + u^{coul}(r)
+\end{equation}
+where $$r$$ is the nearest-neighbor distance, as usual.
+
+Since the Coulombic attraction is very long-range, it is a bit harder to calculate. With some effort, you can convince yourself that the energy per ion pair in an ionic crystal could go as
+
+\begin{equation}
+	u^{coul}(r) = -\frac{e^2}{r}\left[ \frac{1}{\alpha(d)} + \sum\limits_{r\neq0} \left(  \frac{1}{\alpha(R + d)} - \frac{1}{\alpha(R)} \right)  \right]
+\end{equation}
+
+This sum is not well defined in general. The order to which it is evaluated will change the resulting value. To get around this, they basically sum over finite, electrically neutral cells ("subcrystals") which have readily calculable internal energies. The crystal is then determined to be composed of a number of these subcrystals, and the interaction energy between these cells falls off as $$1/r^5$$, which rapidly converges. There are many ways of doing this. The result of all of them is 
+
+\begin{equation}
+	u^{coul}(r) = -\alpha^2\frac{e^2}{r}
+\end{equation}
+
+for some constant $$\alpha$$, the [**Madelung**](https://en.wikipedia.org/wiki/Madelung_constant) constant, which depends only on the crystal structure.
+
+
+We can add in the core-core term. Infinitely hard repulsive spheres are too extreme, since they give exactly the cohesive energy of electrostatic energy at minimum separation. It is allowed to vary as an inverse power law like $$ u(r) -\frac{\alpha e^2}{r} + \frac{C}{r^m}$$ for the total energy per ion pair.
+
+We can find the minimum separation $$r_0$$ by taking the derivative with respect to $$r$$ and setting it to 0. We solve this expression for C, and we can then subsititue it back into our power law expression. This gives a theoretical cohesive enrgy per ion pair of 
+
+\begin{equation}
+	u^{th}_0(r) = u(r_0) = -\frac{\alpha e^2}{r_0}\frac{m-1}{m}
+\end{equation}
+
+Somewhat arbitrarily it seems, the power $$m$$ is chosen to be 12 ("for convenience" and "noting that this led to reasonable agreement with the data"). They then explain (pg 407) why this choice isn't optimal (as in the case of alkali halies), and propose a better value for $$m$$ in terms of the equilibrium bulk modulus and nearest-neighbor separation. Additionally, the list a series of steps that would lead to a better theory. Still this technique is pretty close, and perhaps close enough for some cases.
 
 
 ## Cohesion in Covalent Crystals and Metals (A&M pg. 409)
 
+We are able to be reasonably accurate in molecular and ionic crystals primarily because these crystalline configurations don't significantly distort the valence electron configuraiton from the case of isolated units. Covalent crystals and metals lack this convenience, and you cannot simply calculate the classical potential energy of a set of weakly or negligibly deformed atoms or ions in some structural arrangement. Instead, you must compute the energy leels of the valence electroncs in the presence of a periodic potential from the ion cores. 
+
+You must compute the band structure. There is not model of cohesive energy for metals and covalent crystals that resembles the simplicity of ionic and molecular crystals at all. We'll simply make some minor remarks here on the subject.
+
+
+
 ### Cohesion in Covalent Crystals (A&M pg 409)
+
+Consider the covalent crystal diamond. 
+
+The overlap of the outermost shells generally leads to a lowering of the total electronic energy. The electrons form levels not localized to any particular ion core.
 
 ### Cohesion in Free Electron Metals (A&M pg. 410)
 
+At the other extreme is a "free electron gas" in a metal. 
+
+
 ## Concluding thoughts
 
+Cohesive energy is a statement of the stability of a solid (if it takes more energy to break it apart, it is more stable). For equilibrium thermodynamics, this tells you a fair amount about the material.
 
+It is reasonable to try to calculate the cohesive energy of some kinds of materials (ionic and molecular crystals), however, as the electron configuration becomes more interconnected between units of the material (as in covalent crystals and metals), the calculation becomes more challenging.
