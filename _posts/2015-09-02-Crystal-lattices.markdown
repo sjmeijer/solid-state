@@ -105,12 +105,6 @@ The [diamond lattice](https://en.wikipedia.org/wiki/Diamond_cubic) consists of t
 
 A few different elements can crystallize in a diamond structure: carbon, silicon, germanium, $$\alpha$$-tin, and probably others. The difference in these materials is in the cube side length, the lattice parameter.
 
-<!--
-({{site.base_url}}/{{site.url}}/{% post_url 2015-08-28-Why-is-it-solid %})
-
-[overview]({{site.base_url}}{% post_url 2015-08-27-Overview-what-is-a-solid %})
--->
-
 ## Concluding thoughts
 This chapter looked at the translational symmetries of lattices. In the next post, we'll look at rotational symmetries.
 
