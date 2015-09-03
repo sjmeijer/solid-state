@@ -109,3 +109,4 @@ A few different elements can crystallize in a diamond structure: carbon, silicon
 This chapter looked at the translational symmetries of lattices. In the next post, we'll look at rotational symmetries.
 
 
+
