@@ -103,7 +103,7 @@ A nice resource to look at a variety of examples is on the [Wolfram Demonstratio
 ### Diamond structure
 The [diamond lattice](https://en.wikipedia.org/wiki/Diamond_cubic) consists of the interpenetrating FCC Bravais lattices displaced along the body diagonal of the cubic cell by one quarter the length of the diagonal. There is a nice demo of this available [here](http://demonstrations.wolfram.com/TheStructureOfDiamond/).
 
-A few different elements can crystallize in a diamond structure: carbon, silicon, germanium, $$\alpha$$-tin, and probably others. The difference in these materials is in the cube side length, the [lattice parameter]
+A few different elements can crystallize in a diamond structure: carbon, silicon, germanium, $$\alpha$$-tin, and probably others. The difference in these materials is in the cube side length, the lattice parameter.
 
 <!--
 ({{site.base_url}}/{{site.url}}/{% post_url 2015-08-28-Why-is-it-solid %})
