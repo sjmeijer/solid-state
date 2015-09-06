@@ -11,7 +11,7 @@ Now, on to Ashcroft & Mermin Chapter 4
 
 ## Starting off
 
-Many materials forms crystals, including metals (despite the appearances you may be used to). All it takes to be a crystal is for the microscopic arrangement of the ions is in a periodic array (or in a series of such arrays, in a polycrystalline state).
+Many materials form crystals, including metals (despite the appearances you may be used to). All it takes to be a crystal is for the microscopic arrangement of the ions is in a periodic array (or in a series of such arrays, in a polycrystalline state).
 
 We'll consider here purely geometric properties of periodic in 3-D space.
 

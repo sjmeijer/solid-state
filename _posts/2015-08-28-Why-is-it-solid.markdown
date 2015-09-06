@@ -76,6 +76,8 @@ Again, the authors point out that the precise form of the Lennard-Jones 6-12 pot
 
 A typical $$\epsilon$$ is of order 0.01 eV, consistent with the very weak binding energy of the solidified noble gases.
 
+There's a nice discussion of solid helium [here](http://www.physics.udel.edu/~glyde/Solid_H13.pdf).
+
 ####Matching to data
 Let's try to fit some of the observed properties of the *solid* noble gases using only data from the *gaseous state* and the Lennard-Jones potential.
 
