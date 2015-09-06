@@ -1,7 +1,7 @@
 # Site settings
 title: Solid State Physics
 email: meijer@live.unc.edu
-description: A note-taking adventure in solid sate
+description: A note-taking adventure in solid sate physics
 baseurl: "/solid-state" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  sjmeijer
