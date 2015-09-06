@@ -17,6 +17,8 @@ To start off, it's worth it to watch this short video:
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/DFFU39A3fPY/0.jpg)](http://www.youtube.com/watch?v=DFFU39A3fPY "Crystallograph and Reciprocal Space")
 
 An additional way to buld some intuition is to try this out:
+[2D Reciprocal Lattice on Wolfram Demonstrations](http://demonstrations.wolfram.com/ReciprocalLattice2D/).
+
 <script type='text/javascript' src='http://demonstrations.wolfram.com/javascript/embed.js' ></script><script type='text/javascript'>var demoObj = new DEMOEMBED(); demoObj.run('ReciprocalLattice2D', '', '473', '595');</script><div id='DEMO_ReciprocalLattice2D'><a class='demonstrationHyperlink' href='http://demonstrations.wolfram.com/ReciprocalLattice2D/' target='_blank'>Reciprocal Lattice 2D</a> from the <a class='demonstrationHyperlink' href='http://demonstrations.wolfram.com/' target='_blank'>Wolfram Demonstrations Project</a> by P. Fraundorf</div><br />
 
 It does most of the same things that were shown in the video, but it gives you the ability to control it, which can be nice.
